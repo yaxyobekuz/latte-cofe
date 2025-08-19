@@ -40,18 +40,12 @@ ul {
   gap: 20px;
 }
 
-.nav-list-item {
-}
-
 .nav-list-link {
   font-family: "Inter", sans-serif;
   text-decoration: none;
   color: #d27487;
   font-size: 15px;
   line-height: 24px;
-}
-
-.logo-link {
 }
 
 .logo {
@@ -62,12 +56,6 @@ ul {
 .contact-list {
   display: flex;
   gap: 16px;
-}
-
-.contact-list-item {
-}
-
-.contact-list-link {
 }
 
 .contact-list-icon {
