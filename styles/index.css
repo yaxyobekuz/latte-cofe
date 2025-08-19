@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:wght@700&display=swap');
 @import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
 
 * {
@@ -17,6 +18,10 @@ ul {
   padding-left: 20px;
   margin-right: auto;
   margin-left: auto;
+}
+
+body {
+  font-family: "Inter", sans-serif;
 }
 
 .red-bg {
@@ -41,7 +46,6 @@ ul {
 }
 
 .nav-list-link {
-  font-family: "Inter", sans-serif;
   text-decoration: none;
   color: #d27487;
   font-size: 15px;
@@ -72,4 +76,31 @@ ul {
   width: 100%;
   height: 644px;
   background-color: rgba(255, 255, 255, 0.1);
+}
+
+/* About */
+.about-section {
+  padding: 220px 0px;
+}
+
+.about-section-container {
+  max-width: 909px;
+}
+
+.about-section-title {
+  font-family: "Azeret Mono", sans-serif;
+  font-size: 17px;
+  line-height: 21.6px;
+  text-align: center;
+  margin-bottom: 3px;
+  color: #222222;
+}
+
+.about-section-description {
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 44.8px;
+  letter-spacing: 0%;
+  text-align: center;
+  color: #222222;
 }
